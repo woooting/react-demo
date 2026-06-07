@@ -1,6 +1,4 @@
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
-import { Layout, Menu } from 'antd'
-import { HomeOutlined, InfoCircleOutlined } from '@ant-design/icons'
+import { BrowserRouter } from 'react-router-dom'
 
 import ChatRoom from '@/pages/ChatRoom'
 

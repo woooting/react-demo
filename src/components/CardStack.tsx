@@ -8,7 +8,7 @@ interface TodoItem {
   value: string
 }
 type filterType = 'all' | 'active' | 'completed'
-type TodoList = Array<TodoItem>
+
 
 function CardStack() {
   const [itemList, setItemList] = useState<TodoItem[]>([])
